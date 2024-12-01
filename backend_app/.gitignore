@@ -1,0 +1,53 @@
+# Entornos virtuales
+venv/
+.env
+.venv/
+env/
+ENV/
+
+# Archivos de configuración personal
+*.env
+*.ini
+*.local
+
+# Dependencias instaladas
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+*.db
+
+# Logs y archivos temporales
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.swp
+*.swo
+*.sqlite3
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Archivos relacionados con alembic (migraciones de base de datos)
+alembic/versions/*
+
+# Archivos de configuración de Docker (si aplican)
+docker-compose.override.yml
+docker-compose.local.yml
+docker-compose.prod.yml
+
+# Configuración de Pytest
+.cache/
+.coverage
+pytest_cache/
+.tox/
+
+
