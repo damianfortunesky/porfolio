@@ -7,7 +7,7 @@ PATH -> source .venv/Scripts/activate           # activa
 PATH -> pip install -r requirements.txt         # instalar dependencias
 PATH -> pip freeze > requirements.txt           # agregar nuevas dependencias que surjan
 
-PATH/app -> uvicorn app.main:app --reload       # ejecutar servidor
+PATH -> uvicorn app.main:app --reload       # ejecutar servidor
 
 /* --------------- DOCKER --------------- */
 

@@ -1,0 +1,12 @@
+# Crear proyecto 
+
+    npm create vite@latest my-portfolio --template react-ts
+    
+# Tailwindcss
+
+    npm install -D tailwindcss postcss autoprefixer
+    npx tailwindcss init
+
+# React 
+
+    npm i react-router-dom
